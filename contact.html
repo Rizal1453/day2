@@ -1,0 +1,68 @@
+<html>
+    
+    <head>
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <nav>
+        <div class="nav-left">
+          <ul>
+            <li>
+              <img src="images/logo.png" alt="logo" height="35px" />
+            </li>
+            <li>
+              <a href="index.html"><span class="text-home">Home</span></a>
+            </li>
+            <li>
+              <a href="#"><span class="text-project">My Project</span></a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="nav-right">
+          <a href="contact.html">Contact Me</a>
+        </div>
+      </nav>
+    <body>
+        
+        <form>
+            <H1>GET IN TOUCH</H1>
+
+            <div class="name">
+                <label for="inputname">Name</label>
+                <input type="text" id="inputname" required>
+            </div>
+
+            <div>
+                <label for="inputemail">Email</label>
+                <input type="text" id="inputemail" required>
+            </div>
+
+            <div>
+                <label for="inputphone">Phone Number</label>
+                <input type="number" id="inputphone">
+            </div>
+        
+            <div>
+                <label for="inputsubject">Subject</label>
+                <select id="inputsubject">
+                    <option value="" hidden>Select</option>
+                    <option>Frontend</option>
+                    <option>Backend</option>
+                    <option>Fullstack</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="inputmessage">Your Message</label>
+                <textarea rows="5" cols="10" id="input-message"></textarea>
+            </div>
+
+            <div class="btn">
+                <button>Submit</button>
+            </div>
+        </form>
+        
+
+    </body>
+</html>
